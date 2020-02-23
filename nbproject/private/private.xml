@@ -3,8 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/Business.php</file>
-            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/routes/web.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/Http/Controllers/Controller.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/Http/Controllers/System/AccountController.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/KardexDetail.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/Helpers/GlobalF.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/UnitMeasure.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/Kardex.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/Product.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/Helpers/JwtAuth.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/Http/Middleware/ApiAuthMiddleware.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/Warehouse.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/User.php</file>
+            <file>file:/C:/wamp64/www/proyectos-propios/Erp/backend/app/KardexMotif.php</file>
         </group>
     </open-files>
 </project-private>

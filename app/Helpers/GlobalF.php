@@ -39,7 +39,7 @@ class GlobalF{
                 $data['message'] = $message;
             }
         }
-        
+        //echo !is_object($object); die();
         if(isset($data)) $this->responseHttpExceptionApi($data);
     }
     
@@ -85,8 +85,9 @@ class GlobalF{
     }
     
     public function getOfAuthorizationFromRequest($request, $get){
+	//echo $request; die();
         $authorization = $request->header('Authorization', null);
-        
+        //echo $authorization; die();
         if(!is_null($authorization)){
             $authorization = json_decode($authorization, true);           
             if(!is_array($authorization)){

@@ -24,6 +24,9 @@ class Kardex extends Model{
     
     public function editObject($object, $arr){
         
+        //echo $arr; die();
+        //var_dump($arr); die();
+        
         $arr = [
             $this->table.'.idWarehouse'   => $arr['idWarehouse'],
             $this->table.'.idKardexMotif' => $arr['idKardexMotif'],
@@ -31,8 +34,8 @@ class Kardex extends Model{
             $this->table.'.hour'          => $arr['hour']
         ];         
         
-        if($object->idWarehouse !== $arr['idWarehouse']){
-            $arr['idInternal'] = $this->getNewIdInternalByWarehouse($arr['idWarehouse']);
+        if($object->idWarehouse !== $arr[$this->table.'.idWarehouse']){
+            $arr['idInternal'] = $this->getNewIdInternalByWarehouse($arr[$this->table.'.idWarehouse']);
         }
         
         return $arr;

@@ -71,8 +71,9 @@ class Controller extends BaseController
         $filterBusinessId = false
     ){
         
-        $this->validateObject($object, $objectName, '', $key);
-                
+        $objectValidate = $object->first();
+        $this->validateObject($objectValidate, $objectName, '', $key);
+        
         $objectWhere = $object;
         
         if($filterAccountId) $this->objectValidateByAccount($request, $objectWhere, $objectName, $objectModel);
